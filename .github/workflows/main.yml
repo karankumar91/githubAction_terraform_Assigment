@@ -1,4 +1,4 @@
-name: karan
+name: karan-terraform
 
 on:
   workflow_dispatch:
