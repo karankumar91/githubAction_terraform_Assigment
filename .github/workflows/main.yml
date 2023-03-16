@@ -8,10 +8,10 @@ on:
         required: true  
         type: string 
 
-# env:
+env:
 #   BUCKET: sachin-bkt-test
 #   TFSTATE_FILE: terraform.tfstate
-#   aws_region: ${{ github.event.inputs.region }}
+  aws_region: ${{ github.event.inputs.region }}
 
 jobs:
   ec2-instance:
