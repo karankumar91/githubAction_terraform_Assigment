@@ -6,4 +6,8 @@ resource "aws_instance" "web" {
     Name = var.tag_name
     Owner="karankumar@cloudEq.com"
   }
+  volume_tags = {
+    Name = var.tag_name
+    Owner="karankumar@cloudEq.com"
+  }
 }
